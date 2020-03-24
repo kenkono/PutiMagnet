@@ -3,37 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>PutiMagnet</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-  <h1>ログイン</h1>
-  <hr>
-  <div align="center">
-    <table border="0">
+  <div class="container">
+    <h1>メールマガジンへの登録はこちら</h1>
+    <hr>
+    <div>
       <form action="list.html" method="get">
-        <tr>
-          <th>
-            ユーザID
-          </th>
-          <td>
-            <input type="text" name="user_id" value="" size="24">
-          </td>
-        </tr>
-        <tr>
-          <th>
-            パスワード
-          </th>
-          <td>
-            <input type="password" name="password" value="" size="24">
-          </td>
-          </tr>
+        <table border="0">
           <tr>
-            <td colspan="2">
-              <input type="submit" value="ログイン">
+            <th>
+              名前
+            </th>
+            <td>
+              <input type="text" name="name" value="" size="100">
             </td>
           </tr>
+          <tr>
+            <th>
+              メールアドレス
+            </th>
+            <td>
+              <input type="email" name="email" value="" size="100">
+            </td>
+          </tr>
+        </table>
+        <div>
+          <input type="submit" value="登録">
+        </div>
       </form>
-    </table>
-  </div>
+    </div>
 </body>
 </html>
